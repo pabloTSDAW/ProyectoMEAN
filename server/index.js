@@ -242,7 +242,7 @@ const passport = require('passport');
 app.use(passport.initialize());
 app.use(passport.session());
 
-// app.get('/success', (req, res) => res.send("You have successfully logged in"));
+app.get('/success', (req, res) => res.send("You have successfully logged in"));
 app.get('/error', (req, res) => res.send("error logging in"));
 
 passport.serializeUser(function(user, cb) {
@@ -280,5 +280,5 @@ app.get('/auth/facebook/callback',
   }),
   function(req, res) {
     console.log(req.user);
-    res.redirect('/success');
+    res.redirect('/logueo');
   });

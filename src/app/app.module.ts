@@ -15,7 +15,8 @@ const routes: Routes = [
   {path: '', component: InicioComponent},
   {path: 'menu', component: MenuComponent},
   {path: 'menu/ruleta', component: RuletaComponent},
-  {path: '**', component: InicioComponent}
+  {path: '**', component: InicioComponent},
+  {path: 'logueo', component: MenuComponent}
 ]
 
 @NgModule({
