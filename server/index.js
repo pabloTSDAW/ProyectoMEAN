@@ -13,6 +13,7 @@ var mongoose = require("mongoose");
 app.use(express.static(publicPath));
 
 
+
 //----------------------------------MONGOOSE----------------------------------//
 
 var uristring = 'mongodb://pablotsdaw:pablotsdaw@ds247078.mlab.com:47078/minijuegospablo';
