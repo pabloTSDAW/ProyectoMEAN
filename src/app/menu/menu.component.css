@@ -1,0 +1,58 @@
+.container-fluid {
+  margin-bottom: 190px;
+}
+
+h4, span {
+  color: rgb(99, 183, 230);
+}
+
+h4 {
+  margin-bottom: 20px;
+}
+
+p, li {
+  color: white;
+}
+
+.conectados ul {
+  padding-left: 0;
+}
+
+.col-12 {
+  margin-bottom: 25px;
+}
+
+button {
+  background-color: inherit;
+  color: rgb(99, 183, 230);
+  border: 2px solid rgb(99, 183, 230);
+}
+
+button:hover {
+  background-color: rgb(99, 183, 230);
+  color: rgba(6, 6, 6, 0.87);
+  font-weight: bold;
+}
+
+.info {
+  padding: 5% 0 5% 0;
+}
+
+.instrucciones p {
+  padding: 0 20%;
+}
+
+.jugar button {
+  width: 20%;
+}
+
+.conectados {
+  position: fixed;
+  justify-content: center;
+  left: 0;
+  top : 0;
+}
+
+.conectados li {
+  list-style: none;
+}

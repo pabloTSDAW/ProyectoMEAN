@@ -1,0 +1,23 @@
+<div class="container-fluid text-center">
+  <div class="row title">
+    <div class="col-12">
+      <h1>BIENVENIDO A MINIJUEGOS</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <p>Por favor, introduce tu nick:</p>
+    </div>
+  </div>
+  <div class="row entrar">
+    <div class="col-12">
+      <input type="text" name="" value="" [(ngModel)]=nick>
+    </div>
+    <div class="col-12">
+      <button type="button" class="btn login" name="button" [routerLink]="['/menu']" (click)="entrar()">Entrar</button>
+      <a href="http://localhost:3000/auth/facebook">
+        <button type="button" name="button" class="btn login" [routerLink]="['/menu']">Entrar con Facebook</button>
+      </a>
+    </div>
+  </div>
+</div>

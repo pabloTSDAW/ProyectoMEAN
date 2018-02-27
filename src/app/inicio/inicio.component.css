@@ -1,0 +1,63 @@
+.container-fluid {
+  padding: 15%;
+  justify-content: center;
+  align-content: center;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: snes;
+  font-size: 4em;
+  color: rgb(99, 183, 230);
+}
+
+p {
+  color: white;
+}
+
+.entrar {
+  justify-content: center;
+}
+
+input {
+  background-color: inherit;
+  margin-right: 5px;
+  color: white;
+  width: 25%;
+  padding: 2px 5px;
+}
+
+input:hover {
+  border: 2px solid rgb(99, 183, 230);
+}
+
+button {
+  background-color: inherit;
+  color: rgb(99, 183, 230);
+  border: 2px solid rgb(99, 183, 230);
+}
+
+button:hover {
+  background-color: rgb(99, 183, 230);
+  color: rgba(6, 6, 6, 0.87);
+  font-weight: bold;
+}
+
+.entrar div {
+  margin-bottom: 15px;
+}
+
+.login {
+  border: none;
+  background-color: rgb(37, 94, 168);
+  color: white;
+  margin: 10px 10px;
+}
+
+.login:hover {
+  background-color: white;
+  color:rgb(37, 94, 168);
+}

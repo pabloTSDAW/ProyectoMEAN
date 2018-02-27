@@ -1,0 +1,39 @@
+.container-fluid {
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  padding: 0;
+}
+
+.chat {
+  height: 150px;
+  overflow-y: scroll;
+  background-color: rgb(85, 85, 85);
+  border-top: 2px solid rgb(99, 183, 230);
+  padding: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 6px 15px 6px 20px;
+  background-color: rgb(85, 85, 85);
+  border: 2px solid rgb(99, 183, 230);
+  color: white;
+}
+
+ul {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+  color: white;
+}
+
+span {
+  font-weight: bold;
+  color: rgb(99, 183, 230);
+}

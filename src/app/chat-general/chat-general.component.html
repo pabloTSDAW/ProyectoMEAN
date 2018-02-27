@@ -1,0 +1,10 @@
+<div class="container-fluid">
+  <div class="chat">
+    <ul>
+      <li *ngFor="let m of lista"><span>{{m.nombre}}</span>: {{m.mensaje}}</li>
+    </ul>
+  </div>
+  <div class="row">
+    <input type="text" name="" value="" [(ngModel)]=msj (keyup.enter)="enviarMensaje()">
+  </div>
+</div>

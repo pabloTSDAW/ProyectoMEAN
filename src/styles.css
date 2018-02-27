@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+  background-color: rgba(29, 28, 28, 0.91);
+}
+
+@font-face {
+  font-family: molot;
+  src: url('assets/Molot.otf');
+}
+
+@font-face {
+  font-family: snes;
+  src: url('assets/snes.ttf');
+}

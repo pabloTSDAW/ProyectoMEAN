@@ -1,0 +1,28 @@
+<div class="container text-center">
+  <p>Bienvenido {{jugador}}</p>
+  <div class="container-fluid">
+    <div class="conectados">
+      <span>Usuarios conectados:</span>
+      <ul>
+        <li *ngFor="let user of conectados">{{user}}</li>
+      </ul>
+    </div>
+    <div class="row info">
+      <div class="col-12 col-md-6">
+        <h4>RULETA RUSA</h4>
+        <img src="../assets/ruleta.JPG" width="250px" height="180px">
+      </div>
+      <div class="col-12 col-md-6 instrucciones">
+        <h4>INSTRUCCIONES</h4>
+        <p>Todos los vasos de la mesa contienen whisky, pero uno de ellos, además, lleva <strong><em>veneno</em></strong>... Si eliges un vaso de whisky, ganarás 20 puntos. Si eliges el equivocado... perderás 20 puntos y la vida.</p>
+      </div>
+    </div>
+    <div class="row jugar">
+      <div class="col-12">
+        <button type="button" name="button" [routerLink]="['/menu/ruleta']" (click)="jugar()">JUGAR</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-chat-general></app-chat-general>
